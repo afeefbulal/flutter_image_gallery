@@ -1,17 +1,32 @@
-# flutter_image_gallery
+# Flutter Image Gallery
 
-A new Flutter project.
+A Flutter application that fetches and displays images from the Picsum Photos API.
 
-## Getting Started
+## Features
+- Fetch images using REST API.
+- Display images in a two-column grid.
+- Show image author names.
+- Loading and error state handling.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- Dart
+- HTTP
+- Provider
+- MVVM Architecture
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
+- Model: Represents image data.
+- Service: Handles API requests.
+- Repository: Converts JSON into model objects.
+- ViewModel: Manages application state.
+- View: Displays the user interface.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## API
+https://picsum.photos/v2/list
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Clone this repository.
+2. Run `flutter pub get`.
+3. Run `flutter run`.
